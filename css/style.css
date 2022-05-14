@@ -8,7 +8,7 @@ body{
     margin: 0px;
 }
 .hheader{
-    height: 2rem;
+    height: 3rem;
     background-color: rgb(6, 20, 56);
     color: white;
 }
@@ -36,7 +36,7 @@ body{
 .flexiconos{
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 100%;
     justify-content:space-between;
     vertical-align: middle;
 }
@@ -83,13 +83,18 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 @media (min-width:1080px){/*PARA TABLET*/
     span{
         display:inline;
-        vertical-align: middle;
         margin-left: 2px;
         margin-right: 2px;
+        align-self: center;
     }
     .hlinks{
         height: 28px;
         width: auto;
         transition: all;
+    }
+    .hheader{
+        height: 2rem;
+        background-color: rgb(6, 20, 56);
+        color: white;
     }
 }
