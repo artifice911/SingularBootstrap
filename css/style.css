@@ -3,6 +3,10 @@ body{
     background-color: rgb(78, 78, 78);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+body::-webkit-scrollbar{
+    display: none;
+}
+
 .padmarg{
     padding: 0px;
     margin: 0px;
@@ -41,7 +45,8 @@ body{
     vertical-align: middle;
 }
 .center{
-    justify-content: center;
+    display: flex;
+    justify-content:stretch;
 }
 
 span{
