@@ -16,6 +16,11 @@ body::-webkit-scrollbar{
     background-color: rgb(6, 20, 56);
     color: white;
 }
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
 .hnav{
     height: 4rem;
     background-color: rgb(6, 20, 56);
@@ -25,6 +30,9 @@ body::-webkit-scrollbar{
     height: 3rem;
     background-color: rgb(78, 78, 78);
     color: white;
+    position: sticky;
+    top: 4rem;
+    z-index: 200;
 }
 .hform{
     min-height: calc(100vw/3);
@@ -92,6 +100,10 @@ span{
 .card{
     flex-direction: row;
 }
+.card_img{
+width: 25%;
+height: auto;
+}
 @media (min-width:750px){/*PARA TABLET*/
     .card{
         flex-direction: column;
@@ -115,11 +127,6 @@ span{
         height: 28px;
         width: auto;
         transition: all;
-    }
-    .hheader{
-        height: 2rem;
-        background-color: rgb(6, 20, 56);
-        color: white;
     }
     .card{
         flex-direction: column;
